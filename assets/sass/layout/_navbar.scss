@@ -1,0 +1,76 @@
+body {
+  background-color: #28293e;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .agency {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .aboutolanhisse {
+    display: flex;
+    gap: 100px;
+
+    li {
+      list-style: none;
+      display: flex;
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+
+  .contact {
+
+    .boxx1{
+      color: white;
+    }
+    .btn {
+      background-color: #28293e;
+      height: 40px;
+      border-radius: 5px;
+      border: 1px solid black;
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    .btn {
+      display: none;
+    }
+
+    .aboutolanhisse {
+      li {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px){
+  
+  .navbar{
+    .contact{
+      .boxx1{
+        display: none;
+      }
+    }
+  }
+
+}
+  
+

@@ -1,0 +1,359 @@
+header {
+  display: flex;
+  justify-content: space-around;
+}
+header .soldiv {
+  margin-top: 100px;
+}
+header .soldiv .ms {
+  color: #ef6d58;
+}
+header .soldiv .boyukyazi {
+  color: white;
+  font-size: 70px;
+}
+header .soldiv .kicikyazi {
+  color: #858585;
+}
+header .soldiv .btn1 {
+  border-radius: 5px;
+  border: 1px solid black;
+  height: 50px;
+  background-color: #ef6d58;
+  font-weight: bold;
+  color: white;
+}
+header .soldiv .btn1 a {
+  text-decoration: none;
+  color: white;
+}
+header .soldiv .btn2 {
+  border-radius: 5px;
+  border: 1px solid black;
+  height: 50px;
+  background-color: #28293e;
+  color: white;
+}
+header .soldiv .btn2 a {
+  text-decoration: none;
+  color: white;
+}
+header .soldiv .sekil {
+  margin-top: 100px;
+  display: flex;
+}
+header .soldiv .ulduz {
+  position: absolute;
+  margin-left: 240px;
+  margin-top: 60px;
+}
+header .sagdiv {
+  margin-top: 100px;
+}
+header .sagdiv .sekilhissesi {
+  width: 470px;
+  height: 502px;
+}
+
+.sectiontwopart {
+  background-color: #f2f2f2;
+}
+.sectiontwopart .reklamulsi {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  border-bottom: 2px solid rgb(102, 102, 102);
+}
+.sectiontwopart .reklamulsi li {
+  list-style: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.sectiontwopart .ikidiv {
+  display: flex;
+  justify-content: space-around;
+}
+.sectiontwopart .ikidiv .sag .experience {
+  font-size: 50px;
+  font-weight: bold;
+  color: #391400;
+}
+.sectiontwopart .ikidiv .sag .about1 {
+  color: #ef6d58;
+}
+.sectiontwopart .ikidiv .sag .provides {
+  color: #391400;
+  font-size: 25px;
+}
+.sectiontwopart .ikidiv .sag .ability {
+  color: #aa7d65;
+  font-size: 15px;
+}
+.sectiontwopart .ikidiv .aboutbtn {
+  color: #391400;
+  font-weight: 800;
+  border: 0px;
+  box-shadow: 2px 2px;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  width: 110px;
+  height: 40px;
+}
+.sectiontwopart .qutu {
+  margin-top: 100px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.sectiontwopart .qutu .boks {
+  width: 350px;
+  height: 200px;
+  border: 2px solid #f3d1bf;
+  color: #391400;
+}
+.sectiontwopart .qutu .boks .h4ler {
+  font-weight: 900;
+  font-size: 30px;
+}
+.sectiontwopart .yenidiv {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  border-bottom: 2px solid rgb(145, 95, 61);
+}
+.sectiontwopart .yenidiv .solyazilar .how {
+  color: #8a6863;
+}
+.sectiontwopart .yenidiv .solyazilar .marking {
+  color: #391400;
+  font-size: 30px;
+}
+.sectiontwopart .yenidiv .solyazilar .technical {
+  color: #6e4c39;
+}
+.sectiontwopart .yenidiv .solyazilar .read {
+  color: #391400;
+}
+.sectiontwopart .sagyazilar {
+  color: #391400;
+}
+.sectiontwopart .sagyazilar .birincip {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+.sectiontwopart .sagyazilar .ikincip {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+.sectiontwopart .sagyazilar .ucuncup {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+.sectiontwopart .videoolandiv {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.sectiontwopart .videoolandiv .videodivi {
+  cursor: pointer;
+}
+.sectiontwopart .videoolandiv .videodivi .vidscreen {
+  width: 400px;
+  height: 250px;
+}
+.sectiontwopart .videoolandiv .yazidivi .yazilar1 {
+  color: #ef6d58;
+}
+.sectiontwopart .videoolandiv .yazidivi .yazilar2 {
+  font-size: 40px;
+  color: #391400;
+}
+.sectiontwopart .videoolandiv .yazidivi .yazilar3 {
+  color: #8a5539;
+}
+.sectiontwopart .novbetiikidiv {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+.sectiontwopart .novbetiikidiv .firstandother .birinci {
+  display: flex;
+  align-items: center;
+}
+.sectiontwopart .novbetiikidiv .firstandother .ikinci {
+  display: flex;
+  align-items: center;
+}
+.sectiontwopart .novbetiikidiv .firstandother .ucuncu {
+  display: flex;
+  align-items: center;
+}
+.sectiontwopart .novbetiikidiv .firstandother .features {
+  color: #ef6d58;
+  font-size: 30px;
+}
+.sectiontwopart .novbetiikidiv .firstandother .give {
+  color: #391400;
+  font-size: 50px;
+}
+.sectiontwopart .novbetiikidiv .firstandother .service {
+  color: #391400;
+}
+.sectiontwopart .aftertwodiv {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+.sectiontwopart .aftertwodiv .box1 .faturestwo {
+  color: #ef6d58;
+}
+.sectiontwopart .aftertwodiv .box1 .long {
+  color: #391400;
+  font-size: 30px;
+}
+.sectiontwopart .aftertwodiv .box1 .read {
+  color: #794e37;
+}
+.sectiontwopart .box2 .profesional {
+  color: #391400;
+  font-size: 20px;
+}
+.sectiontwopart .box2 .full {
+  color: #7a4b32;
+}
+.sectiontwopart .box2 .personal .oval {
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: orangered;
+  text-align: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.sectiontwopart .box2 .personal .oval .agfiqur {
+  width: 20px;
+  height: 20;
+  margin-top: 10px;
+}
+.sectiontwopart .tezeikidiv {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+.sectiontwopart .tezeikidiv .box6 .servicee {
+  color: #ef6d58;
+}
+.sectiontwopart .tezeikidiv .box6 .markingg {
+  color: #391400;
+  font-size: 40px;
+}
+.sectiontwopart .tezeikidiv .box6 .agencyy {
+  color: #614130;
+}
+.sectiontwopart .tezeikidiv .box6 .butonexplore {
+  width: 130px;
+  height: 40px;
+  background-color: white;
+  border: 0px;
+  border-radius: 5px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sectiontwopart {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ikidiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .yenidiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .videoolandiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .novbetiikidiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .aftertwodiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .tezeikidiv {
+    display: flex;
+    flex-direction: column;
+  }
+}
+body {
+  background-color: #28293e;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar .agency {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+.navbar .aboutolanhisse {
+  display: flex;
+  gap: 100px;
+}
+.navbar .aboutolanhisse li {
+  list-style: none;
+  display: flex;
+}
+.navbar .aboutolanhisse li a {
+  text-decoration: none;
+  color: white;
+}
+.navbar .contact .boxx1 {
+  color: white;
+}
+.navbar .contact .btn {
+  background-color: #28293e;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.navbar .contact .btn a {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar .btn {
+    display: none;
+  }
+  .navbar .aboutolanhisse li {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .navbar .contact .boxx1 {
+    display: none;
+  }
+}/*# sourceMappingURL=main.css.map */

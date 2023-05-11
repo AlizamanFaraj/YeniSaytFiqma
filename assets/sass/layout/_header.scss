@@ -1,0 +1,349 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  .soldiv {
+    margin-top: 100px;
+    .ms {
+      color: #ef6d58;
+    }
+
+    .boyukyazi {
+      color: white;
+      font-size: 70px;
+    }
+    .kicikyazi {
+      color: #858585;
+    }
+
+    .btn1 {
+      border-radius: 5px;
+      border: 1px solid black;
+      height: 50px;
+      background-color: #ef6d58;
+      font-weight: bold;
+      color: white;
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+    .btn2 {
+      border-radius: 5px;
+      border: 1px solid black;
+      height: 50px;
+      background-color: #28293e;
+      color: white;
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+
+    .sekil {
+      margin-top: 100px;
+      display: flex;
+    }
+
+    .ulduz {
+      position: absolute;
+      margin-left: 240px;
+      margin-top: 60px;
+    }
+  }
+
+  .sagdiv {
+    margin-top: 100px;
+    .sekilhissesi {
+      width: 470px;
+      height: 502px;
+    }
+  }
+}
+
+.sectiontwopart {
+  background-color: #f2f2f2;
+  .reklamulsi {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    border-bottom: 2px solid rgb(102, 102, 102);
+
+    li {
+      list-style: none;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+  }
+
+  .ikidiv {
+    display: flex;
+    justify-content: space-around;
+
+    .sag {
+      .experience {
+        font-size: 50px;
+        font-weight: bold;
+        color: #391400;
+      }
+
+      .about1 {
+        color: #ef6d58;
+      }
+      .provides {
+        color: #391400;
+        font-size: 25px;
+      }
+      .ability {
+        color: #aa7d65;
+        font-size: 15px;
+      }
+    }
+
+    .aboutbtn {
+      color: #391400;
+      font-weight: 800;
+      border: 0px;
+      box-shadow: 2px 2px;
+      border-radius: 5px;
+      background-color: white;
+      cursor: pointer;
+      width: 110px;
+      height: 40px;
+    }
+  }
+
+  .qutu {
+    margin-top: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    .boks {
+      width: 350px;
+      height: 200px;
+      border: 2px solid #f3d1bf;
+      color: #391400;
+
+      .h4ler {
+        font-weight: 900;
+        font-size: 30px;
+      }
+    }
+  }
+
+  .yenidiv {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    border-bottom: 2px solid rgb(145, 95, 61);
+
+    .solyazilar {
+      .how {
+        color: #8a6863;
+      }
+
+      .marking {
+        color: #391400;
+        font-size: 30px;
+      }
+      .technical {
+        color: #6e4c39;
+      }
+      .read {
+        color: #391400;
+      }
+    }
+  }
+  .sagyazilar {
+    color: #391400;
+
+    .birincip {
+      font-size: 30px;
+      display: flex;
+      align-items: center;
+    }
+    .ikincip {
+      font-size: 30px;
+      display: flex;
+      align-items: center;
+    }
+    .ucuncup {
+      display: flex;
+      align-items: center;
+      font-size: 30px;
+    }
+  }
+  .videoolandiv {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    .videodivi {
+      cursor: pointer;
+      .vidscreen {
+        width: 400px;
+        height: 250px;
+      }
+    }
+    .yazidivi {
+      .yazilar1 {
+        color: #ef6d58;
+      }
+      .yazilar2 {
+        font-size: 40px;
+        color: #391400;
+      }
+      .yazilar3 {
+        color: #8a5539;
+      }
+    }
+  }
+
+  .novbetiikidiv {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+
+    .firstandother {
+      .birinci {
+        display: flex;
+        align-items: center;
+      }
+      .ikinci {
+        display: flex;
+        align-items: center;
+      }
+      .ucuncu {
+        display: flex;
+        align-items: center;
+      }
+      .features {
+        color: #ef6d58;
+        font-size: 30px;
+      }
+      .give {
+        color: #391400;
+        font-size: 50px;
+      }
+      .service {
+        color: #391400;
+      }
+    }
+  }
+
+  .aftertwodiv {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    .box1 {
+      .faturestwo {
+        color: #ef6d58;
+      }
+      .long {
+        color: #391400;
+        font-size: 30px;
+      }
+      .read {
+        color: #794e37;
+      }
+    }
+  }
+  .box2 {
+    .profesional {
+      color: #391400;
+      font-size: 20px;
+    }
+    .full {
+      color: #7a4b32;
+    }
+    .personal {
+      .oval {
+        border-radius: 5px;
+        margin-top: 30px;
+        margin-left: 20px;
+        width: 40px;
+        height: 40px;
+        background-color: orangered;
+        text-align: center;
+        align-items: center;
+        border-radius: 50%;
+        .agfiqur {
+          width: 20px;
+          height: 20;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+  .tezeikidiv {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    .box6 {
+      .servicee {
+        color: #ef6d58;
+      }
+      .markingg {
+        color: #391400;
+        font-size: 40px;
+      }
+      .agencyy {
+        color: #614130;
+      }
+      .butonexplore {
+        width: 130px;
+        height: 40px;
+        background-color: white;
+        border: 0px;
+        border-radius: 5px;
+        font-weight: 800;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sectiontwopart {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ikidiv {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .yenidiv {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .videoolandiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .novbetiikidiv {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aftertwodiv {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tezeikidiv {
+    display: flex;
+    flex-direction: column;
+  }
+}
